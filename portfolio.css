@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header
+{
+    background-color: black;
+}
+
+.fs-4
+{
+    color: rgb(120, 243, 5);
+}
+
+.nav-link
+{
+    color: white;
+}
+
+#homepage
+{
+    background-repeat: no-repeat;
+    background-image: url("./background2.jpg");
+    background-size: cover;
+    height: 90vh;
+}
+
+.outer-box
+{
+    height: 85vh;
+    width: 65vw;
+}
+
+.img2
+{
+    margin-left: 50px;
+}
+
+.img3
+{
+    margin-left: 50px;
+}
+
+@media only screen and (max-width:768px)
+{
+    .profile-pic
+    {
+        position: absolute;
+        top: 8%;
+        height: 250px !important;
+        width: 250px !important;
+        margin-left: 5%;
+    }
+    .my-self
+    {
+        position: absolute;
+        bottom: 0%;
+        margin-left: 5%;
+    }
+    .typing1
+    {
+        font-size: 35px !important;
+    }
+    .typing2
+    {
+        font-size: 30px !important;
+    }
+    .about-pic > img
+    {
+        height: 200px;
+        width: 200px;
+    }
+    #input-name
+    {
+        display: flex;
+        margin-left: 108px !important;
+    }
+    #email
+    {
+        display: flex;
+        margin-left: 113px !important;
+    }
+    #phone
+    {
+        display: flex;
+        margin-left: 10px;
+    }
+    #organization
+    {
+        display: flex;
+        margin-left: 30px;
+    }
+    #message
+    {
+        display: flex;
+        margin-left: 80px !important;
+    }
+}
+
+@media only screen and (max-width:991px)
+{
+    .profile-pic
+    {
+        height: 350px;
+        width: 300px;
+    }
+    .typing1
+    {
+        font-size: 40px;
+    }
+    .typing2
+    {
+        font-size: 30px;
+    }
+    .typing3
+    {
+        height: 30px;
+    }
+    .one
+    {
+        padding-left: 15px;
+    }
+    .two
+    {
+        padding-left: 15px;
+    }
+    #input-name
+    {
+        display: flex;
+        margin-left: 110px;
+    }
+    #email
+    {
+        display: flex;
+        margin-left: 116px;
+    }
+    #phone
+    {
+        display: flex;
+        margin-left: 10px;
+    }
+    #organization
+    {
+        display: flex;
+        margin-left: 35px;
+    }
+    #message
+    {
+        display: flex;
+        margin-left: 76px;
+    }
+}
+
+@media only screen and (min-width:992px)
+{
+    .typing2
+    {
+        display: inline-block;
+    }
+    .typewriter
+    {
+        letter-spacing: 2px;
+        font-family: monospace;
+        font-size: 25px;
+        color: red;
+        border-right: 2px solid;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: 
+        typing 4s steps(20),
+        cursor .5s step-end infinite alternate;
+    }
+    @keyframes cursor{
+        50% {border-color: transparent}
+    }
+
+    @keyframes typing
+    {
+        from {width: 0}
+    }
+
+    .one
+    {
+        padding-left: 30px;
+    }
+
+    .two
+    {
+        padding-left: 30px;
+    }
+    #input-name
+    {
+        display: flex;
+        margin-left: 112px;
+    }
+
+    #email
+    {
+        display: flex;
+        margin-left: 118px;
+    }
+
+    #phone
+    {
+        display: flex;
+        margin-left: 10px;
+    }   
+
+    #organization
+    {
+        display: flex;
+        margin-left: 35px;
+    }
+
+    #message
+    {
+        display: flex;
+        margin-left: 82px;
+    }
+}
+
+.typewriter
+{
+    color: red;
+}
+
+@media only screen and (max-width:576px)
+{
+    #homepage
+    {
+        height: 90vh;
+        width: 100vw;
+    }
+    .info
+    {
+        display: none;
+    }
+    .name
+    {
+        display: flex;
+        margin-left: 35%;
+    }
+    .typing1
+    {
+        font-size: 30px !important;
+    }
+    .typing2
+    {
+        font-size: 25px !important;
+    }
+    .profile-pic
+    {
+        margin-top: 15%;
+        height: 250px !important;
+        width: 230px !important;
+    }
+    #input-name
+    {
+        display: flex;
+        margin-left: 102px !important;
+        width: 200px;
+    }
+    #email
+    {
+        display: flex;
+        margin-left: 107px !important;
+        width: 200px;
+    }
+    #phone
+    {
+        width: 200px;
+    }
+    #organization
+    {
+        display: flex;
+        margin-left: 33px;
+        width: 200px;
+    }
+    #message
+    {
+        display: flex;
+        margin-left: 72px !important;
+        width: 200px;
+    }
+}
+
+#aboutme
+{
+    color: red;
+}
+
+#education-area
+{
+    color: red;
+}
+
+#project
+{
+    color: red;
+}
+
+#contact
+{
+    color: red;
+}
+
+.form-group
+{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#Footer
+{
+    background-color: black;
+}
+
+@media only screen and (max-width:1024px)
+{
+    .profile-pic
+    {
+        height: 350px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:280px)
+{
+    .profile-pic
+    {
+        height: 200px !important;
+        width: 180px !important;
+    }
+    .typing1
+    {
+        font-size: 20px !important;
+    }
+    .typing2
+    {
+        font-size: 15px !important;
+    }
+    #Contact
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:375px)
+{
+    .typing1
+    {
+        font-size: 20px !important;
+    }
+    .typing2
+    {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width:360px)
+{
+    h4 {
+        font-size: 15px;
+    }
+    .form-group input
+    {
+        display: flex;
+        width: 120px !important;
+    }
+    .form-group textarea
+    {
+        display: flex;
+        width: 120px !important;
+    }
+    #phone
+    {
+        margin-left: 39px;
+    }
+    #organization
+    {
+        margin-left: 53px;
+    }
+    #message
+    {
+        margin-left: 80px !important;
+    }
+}
