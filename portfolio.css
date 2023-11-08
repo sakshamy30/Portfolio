@@ -24,7 +24,13 @@
     background-repeat: no-repeat;
     background-image: url("./background2.jpg");
     background-size: cover;
-    height: 90vh;
+}
+
+#homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures it takes up at least the full viewport height */
 }
 
 .outer-box
@@ -57,7 +63,7 @@
     {
         position: absolute;
         bottom: 5%;
-        margin-left: 25%;
+        padding-left: 25%;
     }
     .typing1
     {
@@ -142,6 +148,10 @@
         display: flex;
         margin-left: 76px;
     }
+    /* #homepage
+    {
+        width: 97.8vw;
+    } */
 }
 
 @media only screen and (min-width:992px)
@@ -225,11 +235,7 @@
 
 @media only screen and (max-width:576px)
 {
-    #homepage
-    {
-        height: 90vh;
-        width: 100vw;
-    }
+    
     .info
     {
         display: none;
@@ -327,8 +333,8 @@
 {
     .profile-pic
     {
-        height: 200px !important;
-        width: 180px !important;
+        height: 180px !important;
+        width: 150px !important;
     }
     .typing1
     {
