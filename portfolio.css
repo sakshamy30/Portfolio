@@ -30,7 +30,7 @@
 .outer-box
 {
     height: 85vh;
-    width: 65vw;
+    width: 100vw;
 }
 
 .img2
@@ -48,24 +48,24 @@
     .profile-pic
     {
         position: absolute;
-        top: 8%;
+        top: 12%;
         height: 250px !important;
-        width: 250px !important;
-        margin-left: 5%;
+        width: 200px !important;
+        margin-left: 25%;
     }
     .my-self
     {
         position: absolute;
-        bottom: 0%;
-        margin-left: 5%;
+        bottom: 5%;
+        margin-left: 25%;
     }
     .typing1
     {
-        font-size: 35px !important;
+        font-size: 30px !important;
     }
     .typing2
     {
-        font-size: 30px !important;
+        font-size: 25px !important;
     }
     .about-pic > img
     {
@@ -101,22 +101,13 @@
 
 @media only screen and (max-width:991px)
 {
-    .profile-pic
-    {
-        height: 350px;
-        width: 300px;
-    }
     .typing1
     {
-        font-size: 40px;
+        font-size: 35px;
     }
     .typing2
     {
         font-size: 30px;
-    }
-    .typing3
-    {
-        height: 30px;
     }
     .one
     {
@@ -220,6 +211,11 @@
         display: flex;
         margin-left: 82px;
     }
+    .outer-box
+    {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .typewriter
@@ -245,17 +241,17 @@
     }
     .typing1
     {
-        font-size: 30px !important;
+        font-size: 20px !important;
     }
     .typing2
     {
-        font-size: 25px !important;
+        font-size: 15px !important;
     }
     .profile-pic
     {
-        margin-top: 15%;
-        height: 250px !important;
-        width: 230px !important;
+        margin-top: 0%;
+        height: 200px !important;
+        width: 150px !important;
     }
     #input-name
     {
